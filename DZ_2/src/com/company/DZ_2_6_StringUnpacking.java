@@ -9,16 +9,17 @@ public class DZ_2_6_StringUnpacking extends DZ_2_1_Bulls_and_Cows{
         BufferedReader reader = new BufferedReader(new FileReader("D:\\!Testing_Work\\Developments\\Stanislav_Java\\DZ_2\\src\\com\\company\\inputData.txt"));
         String inputStringCombination = reader.readLine();
         String[] inputArr = inputStringCombination.split("");
-        String digitalString = "";
+        StringBuilder digitalString = new StringBuilder();
         for (int i = 0; i < inputArr.length; i++){
             if (isNumeric(inputArr[i])){
-                digitalString += inputArr[i];
+                digitalString.append(inputArr[i]);
             }
             else if (!isNumeric(inputArr[i]) && digitalString.length() > 0){
-                for (int j = 0; j < Integer.parseInt(digitalString); j++){
+                /*for (int j = 0; j < Integer.parseInt(digitalString.toString()); j++){
                     System.out.print(inputArr[i]);
-                }
-                digitalString = "";
+                }*/
+                System.out.print(inputArr[i].repeat(Integer.parseInt(digitalString.toString())));
+                digitalString.setLength(0);
                 continue;
             }
             else {
