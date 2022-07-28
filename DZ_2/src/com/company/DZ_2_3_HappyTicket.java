@@ -42,6 +42,6 @@ public class DZ_2_3_HappyTicket extends DZ_2_1_Bulls_and_Cows {
         } else {
             System.out.println("Выполнение программы невозможно!");
         }
-
+        sc.close();
     }
 }

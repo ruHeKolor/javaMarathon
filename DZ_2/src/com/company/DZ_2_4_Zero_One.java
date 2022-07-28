@@ -33,5 +33,6 @@ public class DZ_2_4_Zero_One extends DZ_2_1_Bulls_and_Cows{
             else zeroCounter = 0;
         }
         System.out.print(zeroCounterMax);
+        reader.close();
     }
 }

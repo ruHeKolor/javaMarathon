@@ -26,5 +26,6 @@ public class DZ_2_7_Repeater {
         for (Map.Entry<String, Integer> entry : map.entrySet()) {
             System.out.println("Слово: " + entry.getKey() + " встречается" + " " + entry.getValue().toString() + " раз");
         }
+        reader.close();
     }
 }

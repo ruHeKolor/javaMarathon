@@ -6,7 +6,8 @@ import java.util.Scanner;
 
 public class DZ_2_5_String_Degree {
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner scanner = new Scanner(new FileReader("D:\\!Testing_Work\\Developments\\Stanislav_Java\\DZ_2\\src\\com\\company\\inputData_2_5.txt"));
+        String filePath = "src/inputData_2_5.txt";
+        Scanner scanner = new Scanner(new FileReader(filePath));
         String inputString = scanner.nextLine();
 
         if (inputString.length() < 1000) {
@@ -32,5 +33,6 @@ public class DZ_2_5_String_Degree {
             System.out.println("Строка слишком большая");
             System.exit(0);
         }
+        scanner.close();
     }
 }

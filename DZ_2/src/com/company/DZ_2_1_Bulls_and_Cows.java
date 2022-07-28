@@ -55,7 +55,7 @@ public class DZ_2_1_Bulls_and_Cows {
                     break;
                 }
             }
-
+            reader.close();
             System.out.println("Хочешь испытать судьбу ещё раз? yes/no: ");
             if (reader.readLine().equalsIgnoreCase("no")){
                 System.out.println("Game over!");

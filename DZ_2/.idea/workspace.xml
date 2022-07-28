@@ -22,8 +22,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\!Testing_Work\Developments\Stanislav_Java\DZ_2\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -37,7 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DZ_2_6_StringUnpacking">
+  <component name="RunManager" selected="Application.DZ_2_5_String_Degree">
     <configuration name="DZ_2_3_HappyTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.DZ_2_3_HappyTicket" />
       <module name="untitled104" />
@@ -53,6 +58,19 @@
     </configuration>
     <configuration name="DZ_2_4_Zero_One" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.DZ_2_4_Zero_One" />
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DZ_2_5_String_Degree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.DZ_2_5_String_Degree" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
@@ -90,23 +108,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.DZ_2_1_Bulls_and_Cows" />
-      <module name="untitled104" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DZ_2_5_String_Degree" />
+        <item itemvalue="Application.DZ_2_4_Zero_One" />
         <item itemvalue="Application.DZ_2_6_StringUnpacking" />
         <item itemvalue="Application.DZ_2_7_Repeater" />
-        <item itemvalue="Application.DZ_2_4_Zero_One" />
         <item itemvalue="Application.DZ_2_3_HappyTicket" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -127,6 +135,9 @@
       <workItem from="1658430912332" duration="4698000" />
       <workItem from="1658515516265" duration="4321000" />
       <workItem from="1658519910241" duration="20619000" />
+      <workItem from="1658947685486" duration="1799000" />
+      <workItem from="1658949857707" duration="3801000" />
+      <workItem from="1659027457101" duration="2343000" />
     </task>
     <servers />
   </component>

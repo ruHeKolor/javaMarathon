@@ -13,6 +13,7 @@ public class DZ_2_2_Palindroms {
             System.out.println("Ведённое слово является палиндромом");
         }
         else System.out.println("Введённое слово - не палиндром");
+        reader.close();
     }
     public static boolean isPalindrome(String str) {
         return str.replaceAll("\\W","")

@@ -6,7 +6,8 @@ import java.io.IOException;
 
 public class DZ_2_6_StringUnpacking extends DZ_2_1_Bulls_and_Cows{
     public static void main(String[] args) throws IOException {
-        BufferedReader reader = new BufferedReader(new FileReader("D:\\!Testing_Work\\Developments\\Stanislav_Java\\DZ_2\\src\\com\\company\\inputData.txt"));
+        String filePath = "src/inputData_2_6.txt";
+        BufferedReader reader = new BufferedReader(new FileReader(filePath));
         String inputStringCombination = reader.readLine();
         String[] inputArr = inputStringCombination.split("");
         StringBuilder digitalString = new StringBuilder();
@@ -26,5 +27,6 @@ public class DZ_2_6_StringUnpacking extends DZ_2_1_Bulls_and_Cows{
                 System.out.print(inputArr[i]);
             }
         }
+        reader.close();
     }
 }
