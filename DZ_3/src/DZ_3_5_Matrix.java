@@ -8,6 +8,7 @@ public class DZ_3_5_Matrix {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("Введите размерность матрицы: ");
         int inputNum = Integer.parseInt(reader.readLine());
+        reader.close();
         int[][] matrix = new int[inputNum][inputNum];
         int row = 0;
         int col = 0;
