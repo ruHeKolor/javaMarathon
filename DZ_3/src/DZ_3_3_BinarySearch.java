@@ -14,7 +14,7 @@ public class DZ_3_3_BinarySearch {
         int[] sortedIntArray = Arrays.stream(inputStringArray).mapToInt(Integer::parseInt).toArray();
         System.out.print("Введите искомое число: ");
         int searchingNumber = Integer.parseInt(reader.readLine());
-
+        reader.close();
         int index = -1;
         int low = 0;
         int high = sortedIntArray.length - 1;
