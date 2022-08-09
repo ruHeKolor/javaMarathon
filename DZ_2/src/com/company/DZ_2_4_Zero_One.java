@@ -15,7 +15,7 @@ public class DZ_2_4_Zero_One extends DZ_2_1_Bulls_and_Cows{
                 System.out.println("Введена некорректная последовательность!");
                 System.exit(0);
             }
-            else if (Integer.parseInt(String.valueOf(charArray[j])) != 0 || Integer.parseInt(String.valueOf(charArray[j])) != 1){
+            else if (charArray[j] != '0' && charArray[j] != '1'){
                 System.out.println("Введена некорректная последовательность!");
                 System.exit(0);
             }

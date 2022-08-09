@@ -42,7 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DZ_2_5_String_Degree">
+  <component name="RunManager" selected="Application.DZ_2_4_Zero_One">
     <configuration name="DZ_2_3_HappyTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.DZ_2_3_HappyTicket" />
       <module name="untitled104" />
@@ -110,8 +110,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DZ_2_5_String_Degree" />
         <item itemvalue="Application.DZ_2_4_Zero_One" />
+        <item itemvalue="Application.DZ_2_5_String_Degree" />
         <item itemvalue="Application.DZ_2_6_StringUnpacking" />
         <item itemvalue="Application.DZ_2_7_Repeater" />
         <item itemvalue="Application.DZ_2_3_HappyTicket" />
@@ -137,7 +137,9 @@
       <workItem from="1658519910241" duration="20619000" />
       <workItem from="1658947685486" duration="1799000" />
       <workItem from="1658949857707" duration="3801000" />
-      <workItem from="1659027457101" duration="2343000" />
+      <workItem from="1659027457101" duration="4830000" />
+      <workItem from="1659082012732" duration="58000" />
+      <workItem from="1660030431954" duration="1249000" />
     </task>
     <servers />
   </component>
